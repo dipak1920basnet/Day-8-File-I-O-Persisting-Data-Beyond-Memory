@@ -1,0 +1,53 @@
+till now the program forget and only had temporary memory or no memory
+everything used to vanish once the program stopped. 
+but the real world software must persist data. 
+
+this issue can be solved with File I/O 
+
+File I/O allows programs to interact with the file systems. 
+Operations:
+1. Read
+2. Write 
+3. Update
+
+
+Opening files: 
+file = open("tasks.txt", "r")
+
+Modes:: 
+| Mode  | Meaning                |
+| ----- | ---------------------- |
+| `"r"` | read                   |
+| `"w"` | write (overwrite file) |
+| `"a"` | append to file         |
+
+### Reading file content:
+
+file = open("tasks.txt","r")
+content = file.read()
+print(content)
+file.close()
+
+Notice: Always close file after use. 
+
+### Writing to Files
+file = open("task.txt",w)
+file.write("Study python")
+file.close()
+
+Notice: "w" mode overwrites existing data
+
+### Appending the data
+file = open("text.txt", "a")
+file.write("\nRead a book")
+file.close()
+
+## Safer file handling (Context Manager)
+with open("text.txt", "r") as file:
+    content = file.read()
+
+Benefits:
+    automatically close file 
+    safer 
+    widely used in productions
+
