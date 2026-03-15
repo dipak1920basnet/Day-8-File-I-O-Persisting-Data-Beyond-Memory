@@ -1,0 +1,4 @@
+Tasks: 
+Study Python
+Exercise
+Read book

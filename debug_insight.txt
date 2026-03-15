@@ -1,0 +1,40 @@
+first_code:
+            file = open("notes.txt", "r")
+
+            content = file.read
+
+            print(content)
+
+            file.close()
+
+answers:: 
+1️⃣ Why does it print something strange?
+=> because we have file.read not file.read(). 
+missing the parenthesis will reference the object instead of calling it. 
+2️⃣ What is missing?
+=> a parenthesis
+3️⃣ Fix the program. 
+=> Solutions:: 
+            file = open("notes.txt", "r")
+            content = file.read()
+            print(content)
+            file.close()
+
+
+
+second code:: 
+        with open("data.txt", "w") as file:
+        file.write("Hello")
+
+
+Tasks:
+
+1️⃣ Run the program
+=> occurs IndentationError
+2️⃣ Identify the error:
+=> It is indentation error can be fixed if we give 4 indention before file.write("Hello")
+
+3️⃣ Fix the indentation issue.
+=> Solutions: 
+    with open("data.txt", "w") as file:
+        file.write("Hello")

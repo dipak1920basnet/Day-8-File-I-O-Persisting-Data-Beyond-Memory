@@ -23,4 +23,3 @@ with open("file_note.txt", "r") as file:
     new_content = file.read()
 
 print(new_content)
-

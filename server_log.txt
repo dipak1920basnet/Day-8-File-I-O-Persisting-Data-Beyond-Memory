@@ -1,0 +1,7 @@
+Server log: 
+ERROR
+INFO
+INFO
+WARNING
+ERROR
+INFO
