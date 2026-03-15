@@ -1,0 +1,16 @@
+Answer:
+
+1️⃣ Why do programs need persistent storage?
+=> without the persistent storage we will lose our data once we close the program. 
+
+2️⃣ What is the difference between "w" and "a" modes?
+=> w will rewrite the existing text to new ones. 
+=> a will append it to the existing text. 
+
+3️⃣ Why are context managers (with open) safer?
+=> It will automatically close the file. 
+
+4️⃣ Why do many production systems log events to files?
+=> store data permenantly. 
+=> track system behavior.
+=> Debug the program 
