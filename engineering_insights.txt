@@ -1,2 +1,6 @@
 the real world data constantly interacts with file 
 the File I/O acts as a bridge between the data and the programs. 
+
+program becomes real tool when they can store and retrive data
+
+file I/O transforms scripts into the persistants systems. 
