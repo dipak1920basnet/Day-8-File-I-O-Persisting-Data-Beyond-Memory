@@ -1,0 +1,2 @@
+the real world data constantly interacts with file 
+the File I/O acts as a bridge between the data and the programs. 
